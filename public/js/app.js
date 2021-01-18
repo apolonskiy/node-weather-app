@@ -7,6 +7,7 @@ form.addEventListener('submit', (e) => {
 
     e.preventDefault();
     messageOne.textContent = 'Loading'; 
+    messageTwo.textContent = ''; 
 
     const location = search.value;
     fetch(`/weather?address=${location}`).then(response => {
