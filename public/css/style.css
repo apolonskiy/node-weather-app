@@ -44,6 +44,7 @@ header a {
 input {
     border: 1px solid #cccccc;
     padding: 8px;
+    font-size:smaller;
 }
 
 button {
@@ -52,4 +53,5 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+    font-size:smaller;
 }
